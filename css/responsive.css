@@ -1,0 +1,257 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .banner{
+        height: auto;
+    }
+    .banner-left, .banner-form{
+        height: auto;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+    .banner{
+        height: auto;
+        padding: 85px 0;
+    }
+
+    .banner-left{
+        height: auto;
+        text-align: center;
+    }
+
+    .banner-left h1{
+        font-size: 35px;
+    }
+
+    .banner-left h2{
+        font-size: 17px;
+        padding: 5px 65px;
+        line-height: 26px;
+    }
+
+    .line {
+        width: 60px;
+        margin: 25px auto;
+    }
+
+    .banner-con p{
+        width: auto !important;
+        padding: 0 40px;
+    }
+
+    .banner-left, .banner-form{
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .card{
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .social-media-icon li a i {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .features{
+        width: auto;
+        padding: 30px 0
+    }
+
+    .feature-tab{
+        display: flex;
+        margin-left: 38px;
+    }
+    .feature-tab .tab{
+        border-radius: 5px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin-left: 15px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .tab-content{
+        text-align: center;
+    }
+
+    .line-feat {
+        width: 50px;
+        margin: 25px auto;
+    }
+    .feat-logo{
+        margin: 10px auto;
+    }
+    .feat-item {
+        padding: 40px 0;
+    }
+    .feat-item-left{
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .regver{
+        flex-direction: column-reverse;
+    }
+    .feat-sto{
+        text-align: center;
+    }
+
+    .feat-sto h4{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .feat-sto p{
+        font-size: 15px;
+        padding: 0 35px;
+        width: auto;
+    }
+    .process-head h1 {
+        font-size: 20px;
+    }
+    .line-feat-middle {
+        width: 50px;
+        height: 2px;
+    }
+    .process-icon {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+    }
+    .process-icon i {
+        font-size: 25px;
+    }
+    .process-text h3 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+    .process-text p{
+        font-size: 16px;
+        padding: 20px 25px;
+    
+    }
+    .process{
+        padding: 40px;
+    }
+    .pricing {
+        padding:50px 0;
+    }
+    .price-ca{
+        margin-bottom: 30px;
+    }
+    .testimonial{
+        padding: 60px 0;
+    }
+    .message{
+        padding: 20px;
+    }
+    .msg-icon{
+        margin-top: 0;
+        width: 30px;
+        height: 30px;
+        left: 20px;
+    }
+    .main-comment{
+        width: auto;
+        margin: 15px 15px;
+    }
+    .user-details .row{
+        width: auto;
+    }
+    .user-details .col-md-3{
+        text-align: left;
+        width: 30%;
+    }
+    .user-details .col-md-9{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .second-testimonial{
+        padding: 60px 0;
+    }
+    .contact{
+        padding: 60px 0;
+    }
+    .main-form {
+        padding: 0 30px;
+    }
+    .form-item{
+        margin-top: 20px;
+    }
+    .main-form div .form-item::placeholder{
+        text-align: center;
+    }
+    .texa{
+        width: 80%;
+        padding: 0 60px;
+        margin-left: 40px;
+    }
+    .contact-btn button {
+        font-size: 14px;
+        padding: 7px 11px;
+    }
+    .f-media ul li a i {
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+}
